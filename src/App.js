@@ -9,6 +9,7 @@ function App() {
 
   return (
    <ThemeContext.Provider value={{backgroundColor: theme}}>
+   <h2>ThachGotoschool</h2>
     Counter  
     <Counter initialCount={0} />
    Counter Hook
